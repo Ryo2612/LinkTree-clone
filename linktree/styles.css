@@ -1,0 +1,60 @@
+html{
+    height: 150px;
+    margin: none;
+    overflow: scroll;
+}
+
+body{
+    font-family: sans-serif;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 50px auto;
+}
+
+.profile-pic{
+    border-radius: 50%;
+    margin: 0 auto;
+
+}
+
+.BIO{
+    text-align: center;
+    color: #fff
+}
+
+.btn{
+    background-color: rgb(221, 172, 94);
+    padding: 16px 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    color: rgb(221, 112, 171);
+    text-decoration: none;
+}
+
+.btn2{
+    background-color: blue;
+    padding:16px 20px ;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    color:white;
+    text-decoration: none;
+}
+
+.btn3{
+    background-color: black;
+    padding:16px 20px ;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    color:white;
+    text-decoration: none;  
+}
+
+.lists{
+    color: white
+}
